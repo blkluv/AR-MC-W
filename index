@@ -10,14 +10,12 @@
       padding: 0;
       box-sizing: border-box;
     }
-
     body {
       font-family: Arial, sans-serif;
       line-height: 1.6;
       background-color: #f9f9f9;
       color: #333;
     }
-
     header {
       height: 100vh;
       display: flex;
@@ -28,20 +26,16 @@
       text-align: center;
       padding: 20px;
     }
-
     header h1 {
       font-size: 3em;
     }
-
     section {
       min-height: 100vh;
       padding: 60px 20px;
     }
-
     .section-light {
       background-color: #ffffff;
     }
-
     .section-dark {
       background-color: #1a1a1a;
       color: #eee;
@@ -52,12 +46,10 @@
   <header>
     <h1>AR-MC / W<br>Augmented Reality Marketing Company</h1>
   </header>
-
   <section class="section-light">
     <h2>About Us</h2>
     <p>We create immersive AR experiences that bridge the gap between learning and interaction. Stay tuned as we build.</p>
   </section>
-
   <section class="section-dark">
     <h2>Coming Soon</h2>
     <p>This space is reserved for something awesome. Imagery, interactive demos, and more.</p>
