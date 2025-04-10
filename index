@@ -3,25 +3,66 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ARMC - Augmented Reality for Education</title>
+  <title>ARMC – Augmented Reality Marketing Company</title>
   <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f0f5;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #ffffff;
+      color: #222;
+      scroll-behavior: smooth;
+    }
+    header {
+      background-color: #111;
+      color: #fff;
+      padding: 2rem;
       text-align: center;
-      padding: 50px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
     }
-    h1 {
-      color: #333;
+    section {
+      padding: 100px 20px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
-    p {
-      font-size: 1.2em;
-      color: #666;
+    .hero {
+      background: linear-gradient(to bottom right, #f0f0f0, #dbeaff);
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+    }
+    .spacer {
+      height: 200vh; /* Creates scroll space for now */
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to ARMC</h1>
-  <p>We’re creating immersive augmented reality experiences for modern classrooms.</p>
+  <header>
+    <h1>ARMC</h1>
+    <p>Augmented Reality Marketing Company</p>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to ARMC</h1>
+    <p>We build immersive AR experiences that connect ideas, people, and places.</p>
+  </section>
+
+  <div class="spacer"></div> <!-- Just to show infinite scroll effect -->
+
 </body>
 </html>
