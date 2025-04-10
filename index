@@ -3,66 +3,64 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ARMC – Augmented Reality Marketing Company</title>
+  <title>ARMC - Augmented Reality Marketing Company</title>
   <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
+
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: Arial, sans-serif;
       line-height: 1.6;
-      background-color: #ffffff;
-      color: #222;
-      scroll-behavior: smooth;
+      background-color: #f9f9f9;
+      color: #333;
     }
+
     header {
-      background-color: #111;
-      color: #fff;
-      padding: 2rem;
-      text-align: center;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
-    section {
-      padding: 100px 20px;
-      min-height: 100vh;
+      height: 100vh;
       display: flex;
-      flex-direction: column;
-      justify-content: center;
       align-items: center;
-    }
-    .hero {
-      background: linear-gradient(to bottom right, #f0f0f0, #dbeaff);
+      justify-content: center;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
       text-align: center;
+      padding: 20px;
     }
-    .hero h1 {
-      font-size: 3rem;
-      margin-bottom: 1rem;
+
+    header h1 {
+      font-size: 3em;
     }
-    .hero p {
-      font-size: 1.2rem;
-      max-width: 600px;
+
+    section {
+      min-height: 100vh;
+      padding: 60px 20px;
     }
-    .spacer {
-      height: 200vh; /* Creates scroll space for now */
+
+    .section-light {
+      background-color: #ffffff;
+    }
+
+    .section-dark {
+      background-color: #1a1a1a;
+      color: #eee;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>ARMC</h1>
-    <p>Augmented Reality Marketing Company</p>
+    <h1>ARMC / W<br>Augmented Reality Marketing Company</h1>
   </header>
 
-  <section class="hero">
-    <h1>Welcome to ARMC</h1>
-    <p>We build immersive AR experiences that connect ideas, people, and places.</p>
+  <section class="section-light">
+    <h2>About Us</h2>
+    <p>We create immersive AR experiences that bridge the gap between learning and interaction. Stay tuned as we build.</p>
   </section>
 
-  <div class="spacer"></div> <!-- Just to show infinite scroll effect -->
-
+  <section class="section-dark">
+    <h2>Coming Soon</h2>
+    <p>This space is reserved for something awesome. Imagery, interactive demos, and more.</p>
+  </section>
 </body>
 </html>
