@@ -1,58 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AR-MC - Augmented Reality Marketing Company</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    header {
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-      color: white;
-      text-align: center;
-      padding: 20px;
-    }
-    header h1 {
-      font-size: 3em;
-    }
-    section {
-      min-height: 100vh;
-      padding: 60px 20px;
-    }
-    .section-light {
-      background-color: #ffffff;
-    }
-    .section-dark {
-      background-color: #1a1a1a;
-      color: #eee;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 60px 20px;
+            margin-top: 60px;
+            height: 100vh;
+            box-sizing: border-box;
+            border-bottom: 1px solid #ddd;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>AR-MC / W<br>Augmented Reality Marketing Company</h1>
-  </header>
-  <section class="section-light">
-    <h2>About Us</h2>
-    <p>We create immersive AR experiences that bridge the gap between learning and interaction. Stay tuned as we build.</p>
-  </section>
-  <section class="section-dark">
-    <h2>Coming Soon</h2>
-    <p>This space is reserved for something awesome. Imagery, interactive demos, and more.</p>
-  </section>
+    <nav>
+        <a href="#section1">Section 1</a>
+        <a href="#section2">Section 2</a>
+        <a href="#section3">Section 3</a>
+        <a href="#section4">Section 4</a>
+    </nav>
+    <section id="section1">
+        <h2>Section 1</h2>
+        <p>Content for section 1...</p>
+    </section>
+    <section id="section2">
+        <h2>Section 2</h2>
+        <p>Content for section 2...</p>
+    </section>
+    <section id="section3">
+        <h2>Section 3</h2>
+        <p>Content for section 3...</p>
+    </section>
+    <section id="section4">
+        <h2>Section 4</h2>
+        <p>Content for section 4...</p>
+    </section>
+    <footer>
+        <p><a href="#top" style="color: white;">Back to Top</a> | <a href="#contact" style="color: white;">Contact</a> | <a href="#about" style="color: white;">About</a></p>
+    </footer>
 </body>
 </html>
